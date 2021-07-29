@@ -1,3 +1,16 @@
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:05
+*Project name : Router 4x4 verification
+*Domain : UVM
+*Description : Router 4x4 DUT
+File Name : design.sv
+*File ID : 980635
+*Modified by : #your name#
+*/
+
 module router_top(clk,reset,
     sa1,sa2,sa3,sa4,
     sa1_valid,sa2_valid,sa3_valid,sa4_valid,

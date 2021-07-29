@@ -1,5 +1,16 @@
-//  Class: master_agent
-//
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:09
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Master agent which is Active agent
+File Name : master_agent.sv
+*File ID : 114587
+*Modified by : #your name#
+*/
+
 class master_agent extends uvm_agent;
     `uvm_component_utils(master_agent);
 

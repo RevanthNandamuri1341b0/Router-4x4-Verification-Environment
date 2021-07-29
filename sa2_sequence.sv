@@ -1,4 +1,16 @@
-//  Class: sa2_sequence
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:47
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Sequence [SA2 -> Rest all OP ports]
+File Name : sa2_sequence.sv
+*File ID : 789833
+*Modified by : #your name#
+*/
+
 class sa2_sequence extends uvm_sequence#(packet);
     int unsigned item_count;
     `uvm_object_utils(sa2_sequence);

@@ -1,5 +1,16 @@
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:11
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Stimulus file
+File Name : packet.sv
+*File ID : 762141
+*Modified by : #your name#
+*/
 
-//  Class: packet
 class packet extends uvm_sequence_item;
     rand bit [7:0] sa;
     rand bit [7:0] da;

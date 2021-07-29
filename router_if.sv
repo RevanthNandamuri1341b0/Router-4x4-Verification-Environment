@@ -1,5 +1,16 @@
-//  Interface: router_if
-//
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:28
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Interface file
+File Name : router_if.sv
+*File ID : 600055
+*Modified by : #your name#
+*/
+
 interface router_if(input clk);
     
     logic reset;

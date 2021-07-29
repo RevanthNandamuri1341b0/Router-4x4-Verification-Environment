@@ -1,5 +1,16 @@
-//  Class: scoreboard
-//
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:49
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Scoreboard file to calculated matches and mismatches
+File Name : scoreboard.sv
+*File ID : 728073
+*Modified by : #your name#
+*/
+
 class scoreboard #(type T=packet) extends uvm_scoreboard;
     typedef scoreboard#(T)scb_type;
     `uvm_component_param_utils(scb_type)

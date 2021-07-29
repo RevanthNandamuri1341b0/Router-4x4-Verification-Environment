@@ -1,5 +1,16 @@
-//  Package: router_env_pkg
-//
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:13
+*Project name : Router 4x4 Verification
+*Domain : UVM
+*Description : Package file to import all the files in the environment
+File Name : router_env_pkg.sv
+*File ID : 836234
+*Modified by : #your name#
+*/
+
 package router_env_pkg;
     //  Group: Typedefs
     typedef enum  {IDLE,RESET,STIMULUS,CSR_WRITE,CSR_READ} pkt_type_t;

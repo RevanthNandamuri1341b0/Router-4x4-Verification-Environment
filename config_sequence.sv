@@ -1,5 +1,17 @@
-//  Class: config_sequence
-//
+/*
+*Author : Revanth Sai Nandamuri
+*GitHUB : https://github.com/RevanthNandamuri1341b0
+*Date of update : 29 July 2021
+*Time of update : 15:04
+*Project name : Router 4x4 verification
+*Domain : UVM
+*Description : Configuration file
+File Name : config_sequence.sv
+*File ID : 270566
+*Modified by : #your name#
+*/
+
+
 class config_sequence extends uvm_sequence#(packet);
     `uvm_object_utils(config_sequence);
 
