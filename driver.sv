@@ -25,7 +25,7 @@ class driver extends uvm_driver#(packet);
         obj_id=id;
     endfunction: new
 
-    extern task run_phase(uvm_phase phase);    
+    extern virtual task run_phase(uvm_phase phase);    
     extern virtual function void build_phase(uvm_phase phase);
     extern virtual task drive(ref packet pkt);
     extern virtual task drive_stimulus(input packet pkt);
